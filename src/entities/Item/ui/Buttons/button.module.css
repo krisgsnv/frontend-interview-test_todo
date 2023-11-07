@@ -1,0 +1,12 @@
+.btn {
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background: transparent;
+  }
+  
+  .btn:first-child {
+    margin-right: 15px;
+  }

@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    margin-right: 16px;
+  }
+  
+  .category {
+    font-weight: 400;
+    font-size: 18px;
+    color: #3f72af;
+  }
+  
+  .category::before {
+    content: url("../../../../app/assets/folder.svg");
+    margin-right: 4px;
+    position: relative;
+    top: 3px;
+  }
+  
+  .description {
+    color: #808080;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+  }

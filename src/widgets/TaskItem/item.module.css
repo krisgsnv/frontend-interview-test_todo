@@ -1,0 +1,15 @@
+.item {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 80px;
+    border-bottom: 2px solid #3f72af;
+  }
+  
+  .item:hover {
+    background-color: rgba(37, 127, 234, 0.2);
+  }
+  
